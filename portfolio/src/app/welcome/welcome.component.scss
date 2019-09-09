@@ -1,0 +1,28 @@
+html, body {
+  height: 100%;
+}
+body {
+  background-color: #0F0F0F;
+  text-align: center;
+}
+
+.text{
+  text-align: center;
+}
+.title{
+  color: #0F0F0F;
+  text-shadow: -1px -1px 0 #F6F8F3, 1px -1px 0 #F6F8F3, -1px 1px 0 #F6F8F3, 1px 1px 0 #F6F8F3;
+  font-family: 'Old London';
+  font-size: 20vw;
+  position: absolute;
+  margin: 0;
+  top: 50%;
+
+}
+
+.enter{
+  font-family: 'Playfair Display', serif;
+  font-size: 10vw;
+  top: 70%;
+  color:#F40000;
+}

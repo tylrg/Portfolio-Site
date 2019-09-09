@@ -1,0 +1,10 @@
+.card-body{
+  transition: all .1s ease-in-out;
+	margin: 1vw 5vw;
+	color: #ffffff;
+  font-style: italic;
+  font-weight: 800;
+}
+.card-body:hover{
+	transform: scale(1.075);
+}
