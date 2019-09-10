@@ -1,0 +1,35 @@
+.title{
+  color: #0F0F0F;
+  text-shadow: -1px -1px 0 #F6F8F3, 1px -1px 0 #F6F8F3, -1px 1px 0 #F6F8F3, 1px 1px 0 #F6F8F3;
+  font-family: 'Old London';
+  font-size: 5vw;
+}
+
+
+mat-card{
+  background-color: #F9C8C7;
+  border-radius: 0 !important;
+}
+
+
+.toolbar{
+  color: #F40000;
+  font-family: "Playfair Display";
+  background-color: transparent;
+}
+
+.tb-icon{
+  padding: 0 14px;
+  transition: all .3s ease-in-out;
+}
+
+.tb-icon:hover{
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+
