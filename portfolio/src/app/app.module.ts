@@ -9,6 +9,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { MatListModule } from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -28,6 +29,7 @@ import { HomeComponent } from './home/home.component'
 		MatCardModule,
     MatExpansionModule,
     MatGridListModule,
+    MatListModule,
 		MatSidenavModule,
     MatToolbarModule,
 		AppRoutingModule

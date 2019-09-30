@@ -1,35 +1,20 @@
-.title{
-  color: #0F0F0F;
-  text-shadow: -1px -1px 0 #F6F8F3, 1px -1px 0 #F6F8F3, -1px 1px 0 #F6F8F3, 1px 1px 0 #F6F8F3;
-  font-family: 'Old London';
-  font-size: 5vw;
+.logo{
+    color: #3C91E6;
+    font-family: 'Taviraj', serif;
+    font-size: 5vw;
+    line-height: .9;
+    display: inline-block;
+    cursor: default;
 }
 
-
-mat-card{
-  background-color: #F9C8C7;
-  border-radius: 0 !important;
+#t-logo{
+    background-color: #EDFC99;
 }
 
-
-.toolbar{
-  color: #F40000;
-  font-family: "Playfair Display";
-  background-color: transparent;
+#g-logo{
+    background-color: #F5D0AD;
 }
 
-.tb-icon{
-  padding: 0 14px;
-  transition: all .3s ease-in-out;
+#logo-card{
+    text-align:center;
 }
-
-.tb-icon:hover{
-  transform: scale(1.5);
-  cursor: pointer;
-}
-
-.spacer {
-  flex: 1 1 auto;
-}
-
-
