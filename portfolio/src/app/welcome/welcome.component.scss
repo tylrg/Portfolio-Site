@@ -5,6 +5,10 @@ html, body {
   padding-top: 330px;
   text-align: center;
 }
+.message{
+  text-align: center;
+  cursor: pointer;
+}
 h1 {
   font-family: 'Varela Round', sans-serif;
   font-size: 10vw;
@@ -34,6 +38,27 @@ h1 {
     100%{background-position:0% 51%}
   }
 }
+h3{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.5vw;
+  opacity: 1;
+
+  -webkit-animation: fadeinout 6.5s linear infinite forwards;
+    animation: fadeinout 6.5s linear infinite forwards;
+
+  @-webkit-keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  @keyframes fadeinout {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+}
+
 //animations from hover.css
 .hvr-sink {
   display: inline-block;
@@ -68,4 +93,19 @@ h1 {
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
   -webkit-transform: translateY(-16px);
   transform: translateY(-16px);
+}
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
