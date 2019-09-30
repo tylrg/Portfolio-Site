@@ -1,44 +1,10 @@
 html, body {
   height: 100%;
 }
-.body {
-  background-color: #0F0F0F;
-  text-align: center;
-}
-.title{
-  color: #3C91E6;
-  font-family: 'Taviraj', serif;
-  font-size: 10vw;
-  letter-spacing: -.5vw;
-  margin-top:2vw;
-  cursor: default;
-}
-.plain{
-  color: #3C91E6;
-  font-family: 'Taviraj', serif;
-  font-size: 3vw;
-  margin-right: 0;
-}
-mat-list-item{
-  direction: rtl;
-  cursor: default;
-}
-sup{
-  vertical-align: top;
-  font-size:3vw;
-}
-.block{
-  margin-top: 3vw;
-  height: 3vw;
-  width: 100%;
-  background: #F4C9A1;
-}
-
 .logo{
   padding-top: 330px;
   text-align: center;
 }
-
 h1 {
   font-family: 'Varela Round', sans-serif;
   font-size: 10vw;
@@ -68,39 +34,38 @@ h1 {
     100%{background-position:0% 51%}
   }
 }
-
 //animations from hover.css
 .hvr-sink {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transform: perspective(2px) translateZ(0);
+  transform: perspective(2px) translateZ(0);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
 .hvr-sink:hover, .hvr-sink:focus, .hvr-sink:active {
-  -webkit-transform: translateY(8px);
-  transform: translateY(8px);
+  -webkit-transform: translateY(16px);
+  transform: translateY(16px);
 }
 .hvr-float {
   display: inline-block;
   vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transform: perspective(2px) translateZ(0);
+  transform: perspective(2px) translateZ(0);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.25s;
+  transition-duration: 0.25s;
   -webkit-transition-property: transform;
   transition-property: transform;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
 .hvr-float:hover, .hvr-float:focus, .hvr-float:active {
-  -webkit-transform: translateY(-8px);
-  transform: translateY(-8px);
+  -webkit-transform: translateY(-16px);
+  transform: translateY(-16px);
 }
