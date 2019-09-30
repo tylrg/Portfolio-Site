@@ -14,13 +14,15 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './welcome/welcome.component';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { ProjectCardComponent } from './project-card/project-card.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     HomeComponent,
+    ProjectCardComponent,
   ],
   imports: [
     BrowserModule,

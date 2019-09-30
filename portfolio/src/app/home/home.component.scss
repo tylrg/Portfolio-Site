@@ -1,20 +1,39 @@
 .logo{
-    color: #3C91E6;
-    font-family: 'Taviraj', serif;
-    font-size: 5vw;
-    line-height: .9;
-    display: inline-block;
-    cursor: default;
+    padding-top: 150px;
+    text-align: center;
 }
-
-#t-logo{
-    background-color: #EDFC99;
+h1{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 10vw;
+  cursor: default;
+  margin-top: -10vw;
+  background: linear-gradient(269deg, #274156, #271456, #f6d8ae, #271456, #274156);
+  background-size: 1000% 1000%;
+  -webkit-animation: AnimationName 13s ease infinite;
+  -moz-animation: AnimationName 13s ease infinite;
+  animation: AnimationName 13s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+  }
+  @-moz-keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+  }
+  @keyframes AnimationName {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+  }
 }
-
-#g-logo{
-    background-color: #F5D0AD;
-}
-
-#logo-card{
-    text-align:center;
+.content{
+    text-align: center;
+    align-self: center;
+    width:90%;
+    margin: 0 auto;
 }
