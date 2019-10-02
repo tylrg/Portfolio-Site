@@ -15,7 +15,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { HomeComponent } from './home/home.component';
-import { ProjectCardComponent } from './project-card/project-card.component'
+import { ProjectCardComponent } from './project-card/project-card.component';
+import { ProjectViewComponent } from './project-view/project-view.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { AboutViewComponent } from './about-view/about-view.component';
+import { ContactViewComponent } from './contact-view/contact-view.component'
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { ProjectCardComponent } from './project-card/project-card.component'
     WelcomeComponent,
     HomeComponent,
     ProjectCardComponent,
+    ProjectViewComponent,
+    NotfoundComponent,
+    AboutViewComponent,
+    ContactViewComponent,
   ],
   imports: [
     BrowserModule,
