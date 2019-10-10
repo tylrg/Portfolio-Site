@@ -4,11 +4,16 @@
 </div>
 
 <div class="content">
-  <button routerLink="projects">Projects</button>
-  <button routerLink="about">About</button>
-  <button routerLink="contact">Contact</button>
+  <mat-toolbar>
+    <mat-toolbar-row>
+      <button routerLink="projects">Projects</button>
+      <button routerLink="about">About</button>
+      <button style="float: right" routerLink="contact">Contact</button>
+    </mat-toolbar-row>
+    
+  </mat-toolbar>
+  <br>
   <mat-divider></mat-divider>
+  <router-outlet></router-outlet>
 </div>
 
-
-<router-outlet></router-outlet>
