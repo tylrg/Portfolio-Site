@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatButtonModule } from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatGridListModule} from '@angular/material/grid-list';
@@ -36,6 +37,7 @@ import { ContactViewComponent } from './contact-view/contact-view.component'
     BrowserModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
+    MatButtonModule,
 		MatCardModule,
     MatExpansionModule,
     MatGridListModule,
