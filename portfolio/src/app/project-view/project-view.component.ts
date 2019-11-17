@@ -8,7 +8,7 @@ import { Project } from '../classes/project';
 })
 export class ProjectViewComponent implements OnInit {
 
-  p: Array<Project>;
+  projectList: Array<Project>;
 
   constructor() { }
 

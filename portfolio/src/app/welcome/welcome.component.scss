@@ -2,18 +2,23 @@ html, body {
   height: 100%;
 }
 .logo{
-  padding-top: 330px;
+  padding-top: 50px;
   text-align: center;
 }
 .message{
   text-align: center;
   cursor: pointer;
 }
+
+#gLogo{
+  margin-top: -150px;
+}
+
 h1 {
   font-family: 'Varela Round', sans-serif;
-  font-size: 10vw;
+  font-size: 1000%;
   cursor: default;
-  margin-top: -10vw;
+  //margin-top: -30%;
   background: linear-gradient(269deg, #274156, #271456, #f6d8ae, #271456, #274156);
   background-size: 1000% 1000%;
   -webkit-animation: AnimationName 13s ease infinite;
@@ -40,7 +45,7 @@ h1 {
 }
 h3{
   font-family: 'Varela Round', sans-serif;
-  font-size: 1.5vw;
+  font-size: 125%;
   opacity: 1;
 
   -webkit-animation: fadeinout 6.5s linear infinite forwards;

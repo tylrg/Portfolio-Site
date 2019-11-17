@@ -4,7 +4,8 @@
 }
 h1{
   font-family: 'Varela Round', sans-serif;
-  font-size: 10vw;
+  // font-size: 10vw;
+  font-size: 1000%;
   cursor: default;
   margin-top: -10vw;
   background: linear-gradient(269deg, #274156, #271456, #f6d8ae, #271456, #274156);
@@ -38,6 +39,11 @@ h1{
 
 mat-divider{
   padding-bottom: 5px;
+}
+
+#tool-bar{
+  background-color: rgba(0, 0, 0, 0.01);
+  padding-left: 40%
 }
 
 
