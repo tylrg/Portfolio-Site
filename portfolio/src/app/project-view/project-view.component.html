@@ -3,14 +3,19 @@
 <app-project-card></app-project-card>
 <app-project-card></app-project-card> -->
 <h1>Current Projects</h1>
-<ul>
+<!-- <ul>
 <li *ngFor="let project of projectList">
-    <h1>{{project.title}}</h1>
-    {{project.description}}
-    {{project.date}}
-    {{project.image}}
-    {{project.link}}
-    <br>
+    <app-project-card [title]="project.title" [description]="project.description" [date]="project.date" [image]="project.image" [link]="project.link"></app-project-card>
 </li>
-</ul>
-<button (click)="fuck()"></button>
+</ul> -->
+
+<mat-list *ngFor="let project of projectList">
+    <br>
+    <br>
+    <mat-list-item >
+        <app-project-card [title]="project.title" [description]="project.description" [date]="project.date" [image]="project.image" [link]="project.link"></app-project-card>
+    </mat-list-item>
+    <br>
+    <br>
+</mat-list>
+

@@ -12,12 +12,10 @@ import { Project } from '../classes/project';
 export class ProjectViewComponent implements OnInit{
 
   projectList = [
-  { "title": "Taco", "description": "lorem ipsum taco bell taco", "date": "December 20th, 2019", "image": "none", "link": "www.google.com" },
-  { "title": "Taco", "description": "lorem ipsum taco bell taco", "date": "December 20th, 2019", "image": "none", "link": "www.google.com" },
-  { "title": "Taco", "description": "lorem ipsum taco bell taco", "date": "December 20th, 2019", "image": "none", "link": "www.google.com" },
+  { "title": "Otto", "description": "lorem ipsum taco bell taco", "date": "December 20th, 2019", "image": "none", "link": "www.google.com" },
+  { "title": "Personal Website", "description": "lorem ipsum taco bell taco", "date": "December 20th, 2019", "image": "none", "link": "www.google.com" },
+  { "title": "Project Mayo", "description": "lorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell tacolorem ipsum taco bell taco", "date": "December 20th, 2019", "image": "none", "link": "www.google.com" },
   ]; 
-  //favorite: this.projectList[0];
-  
 
   constructor() { }
 

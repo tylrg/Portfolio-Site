@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Project } from '../classes/project';
 
 @Component({
@@ -6,11 +6,20 @@ import { Project } from '../classes/project';
   templateUrl: './project-card.component.html',
   styleUrls: ['./project-card.component.scss']
 })
-export class ProjectCardComponent implements OnInit {
+export class ProjectCardComponent implements OnInit { 
+
+  @Input()
+  title:string ="";
+  @Input()
+  description: string = "";
+  @Input()
+  date: string = "";
+  @Input()
+  image: string = "";
+  @Input()
+  link: string = "";
 
   constructor() { }
-
   ngOnInit() {
   }
-
 }
