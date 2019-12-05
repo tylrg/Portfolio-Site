@@ -8,6 +8,7 @@ h1{
   font-size: 1000%;
   cursor: default;
   margin-top: -10vw;
+  margin-bottom: 1vw;
   background: linear-gradient(269deg, #274156, #271456, #f6d8ae, #271456, #274156);
   background-size: 1000% 1000%;
   -webkit-animation: AnimationName 13s ease infinite;
@@ -39,25 +40,21 @@ h1{
 mat-divider{
   padding-bottom: 5px;
 }
-
 #tool-bar{
   background-color: rgba(0, 0, 0, 0.01);
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 #about-button{
   //margin-right: 15%;
   //margin-left: 15%;
   padding-right: 15%;
   padding-left: 15%;
 }
-
 button{
   font-family: 'Varela Round', sans-serif;
 }
-
 
 //animations from hover
 /* Forward */

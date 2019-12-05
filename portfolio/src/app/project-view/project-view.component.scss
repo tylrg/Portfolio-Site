@@ -3,20 +3,22 @@ mat-list{
 }
 h1{
     font-family: 'Varela Round', sans-serif;
+    font-size: calc(10px+10vw);
+    margin-bottom: 100px;
 }
 app-project-card{
-    width: auto;
+    width: 100%;
     margin-top: 10%;
     margin-bottom: 10%;
 }
 
 .mat-list-base {
-    margin-top: 150px;
-    margin-bottom: 200px;
+    //margin-top: 50vw;
+    //margin-bottom: 50vw;
+    //margin-top: 10%;
+    margin-bottom: calc(10vw + 50px);
+    margin-top: calc(10vw+50px);
 }
-.mat-list-item, 
-.mat-list-base 
-.mat-list-option{
 
 
-}
+
