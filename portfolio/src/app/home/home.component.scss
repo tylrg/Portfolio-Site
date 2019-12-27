@@ -42,18 +42,23 @@ mat-divider{
 }
 #tool-bar{
   background-color: rgba(0, 0, 0, 0.01);
-  display: flex;
-  justify-content: center;
   width: 100%;
+  justify-content: left;
 }
-#project-button{
-  //margin-right: 15%;
-  //margin-left: 15%;
-  padding-right: 15%;
-  padding-left: 15%;
+button{
+  margin-right: 1vw;
 }
 button{
   font-family: 'Varela Round', sans-serif;
+}
+
+.footer{
+  margin-top: 25vw;
+  text-align: center;
+}
+h6{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
 }
 
 //animations from hover
