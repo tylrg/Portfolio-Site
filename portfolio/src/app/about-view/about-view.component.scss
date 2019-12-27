@@ -1,5 +1,21 @@
+mat-list{
+    font-family: 'Varela Round', sans-serif;
+}
 h1{
     font-family: 'Varela Round', sans-serif;
     font-size: calc(10px+10vw);
     margin-bottom: 100px;
+}
+mat-card{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+mat-card-content{
+    font-size: 25px;
+}
+
+.mat-card-footer{
+    margin-left: 10px;
+    margin-bottom:10px;
 }
