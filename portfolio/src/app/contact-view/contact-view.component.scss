@@ -14,7 +14,19 @@ img{
 .photo{
     text-align: center;
     display: block;
+    box-shadow: -12px -12px 12px 0 rgba(255,255,255,.7),
+      12px 12px 12px 0 rgba(0,0,0,.2);
+    widows: 50%;
+    border-radius: 15px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f2f2f2;
 }
+
+
+
 
 /* Grow */
 .hvr-grow {
