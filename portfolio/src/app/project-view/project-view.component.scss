@@ -1,17 +1,17 @@
-mat-list{
-    font-family: 'Varela Round', sans-serif;
-}
 h1{
     font-family: 'Varela Round', sans-serif;
     font-size: calc(10px+10vw);
     margin-bottom: 100px;
+    color: #53D8FB;
 }
-
 h2{
     font-family: 'Varela Round', sans-serif;
     font-size: calc(10px+10vw);
+    text-decoration: none;
 }
-
+a{
+    text-decoration: none;
+}
 img{
     border-radius: 5px;
     width: calc(30%);
@@ -19,29 +19,11 @@ img{
 .photo{
     text-align: center;
     display: block;
-    box-shadow: -12px -12px 12px 0 rgba(255,255,255,.7),
-      12px 12px 12px 0 rgba(0,0,0,.2);
     border-radius: 15px;
     margin-left: 75px;
     margin-right: 75px;
     padding-top: 10px;
     padding-bottom: 5px;
-    background-color: #f2f2f2;
+    background-color: #DFE3EB;
+    color: #66C3FF;
 }
-
-// app-project-card{
-//     //width: 100%;
-//     margin-top: 10%;
-//     margin-bottom: 10%;
-// }
-
-// .mat-list-base {
-//     //margin-top: 50vw;
-//     //margin-bottom: 50vw;
-//     //margin-top: 10%;
-//     margin-bottom: calc(10vw + 50px);
-//     margin-top: calc(10vw+50px);
-// }
-
-
-

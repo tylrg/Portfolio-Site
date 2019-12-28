@@ -10,7 +10,7 @@ h1{
   cursor: default;
   margin-top: -10vw;
   margin-bottom: 1vw;
-  background: linear-gradient(269deg, #274156, #271456, #f6d8ae, #271456, #274156);
+  background: linear-gradient(269deg, #434344,#434344, #66C3FF, #53D8FB, #66C3FF, #434344,#434344);
   background-size: 1000% 1000%;
   -webkit-animation: AnimationName 13s ease infinite;
   -moz-animation: AnimationName 13s ease infinite;
@@ -41,19 +41,23 @@ h1{
 mat-divider{
   padding-bottom: 5px;
 }
+mat-toolbar{
+  background: #343435;
+}
 #tool-bar{
-  background-color: rgba(0, 0, 0, 0.01);
+  background-color: #343435;
   width: 100%;
   justify-content: left;
+  box-shadow: -12px -12px 12px 0 rgba(58,58,57,.59),
+      12px 12px 12px 0 rgba(0,0,0,.2);
+  color: #E3E0DD;
+  border-radius: 10px;
 }
 button{
   margin-right: 1vw;
   font-size: 15px;
-}
-button{
   font-family: 'Varela Round', sans-serif;
 }
-
 .footer{
   margin-top: 25vw;
   text-align: center;
