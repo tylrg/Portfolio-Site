@@ -1,10 +1,5 @@
 Things to include:
 Resume: just an attachment
-Profiles
-    -linkedin
-    -github
-    -handshake
-    -
 
 Portfolio
 -Website
@@ -12,8 +7,6 @@ Portfolio
 -Project Mayonnaise
 -Plant Bot
 
-Ideas
-two cards centered
 Change font
 
 
