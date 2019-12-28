@@ -3,18 +3,18 @@
     text-align: center;
 }
 h1{
-  font-family: 'Varela Round', sans-serif;
   //font-style: italic;
   // font-size: 10vw;
+  font-family: 'Bungee Shade', cursive;
   font-size: 1000%;
   cursor: default;
   margin-top: -10vw;
   margin-bottom: 1vw;
-  background: linear-gradient(269deg, #434344,#434344, #66C3FF, #53D8FB, #66C3FF, #434344,#434344);
+  background: linear-gradient(269deg, #434344,#434344, #66C3FF, #DFE3EB, #66C3FF, #434344,#434344);
   background-size: 1000% 1000%;
-  -webkit-animation: AnimationName 13s ease infinite;
-  -moz-animation: AnimationName 13s ease infinite;
-  animation: AnimationName 13s ease infinite;
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -56,14 +56,17 @@ mat-toolbar{
 button{
   margin-right: 1vw;
   font-size: 15px;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #DFE3EB;
+}
+button:hover{
+  color: #53D8FB;
 }
 .footer{
   margin-top: 25vw;
   text-align: center;
 }
 h6{
-  font-family: 'Varela Round', sans-serif;
   font-size: 20px;
 }
 

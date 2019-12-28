@@ -1,11 +1,9 @@
 h1{
-    font-family: 'Varela Round', sans-serif;
     font-size: calc(10px+10vw);
     margin-bottom: 100px;
     color: #53D8FB;
 }
 h2{
-    font-family: 'Varela Round', sans-serif;
     font-size: calc(10px+10vw);
     text-decoration: none;
 }
@@ -25,5 +23,10 @@ img{
     padding-top: 10px;
     padding-bottom: 5px;
     background-color: #DFE3EB;
+    color: #343435;
+    transition: all .09s ease-in-out;
+}
+.photo:hover { 
+    transform: scale(1.07);
     color: #66C3FF;
 }
