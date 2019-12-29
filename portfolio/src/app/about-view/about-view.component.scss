@@ -41,3 +41,13 @@ mat-card-content{
     margin-left: 10px;
     margin-bottom:10px;
 }
+.photo{
+    text-align: center;
+    display: block;
+    box-shadow: -12px -12px 12px 0 rgba(58,58,57,.59),
+      12px 12px 12px 0 rgba(0,0,0,.2);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #343435;
+}
